@@ -7,3 +7,8 @@
 - So, your service is intelligent to not load on one service instance while there are others that could be used.
 - Spring Cloud Netflix Ribbon is deprecated. It was used to achieve client side load balancing.
 - @EnableEurekaClient is not needed anymore.
+
+### circuit breaker
+- Earlier Spring was providing Spring Cloud Hystrix but now its been deprecated 
+  and Resilience4j is being used.
+- 
